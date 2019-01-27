@@ -1,0 +1,157 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Poiret One', cursive;
+}
+
+#gamer-result {
+    width: 10rem;
+}
+
+#computer-result {
+    width: 10rem;
+}
+
+.move-container {
+    background-color: #358FBB;
+    width: 100vw;
+    height: 47vh;
+}
+
+.move-container div {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.move-container div p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.move-container div button {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+#result {
+    height: 47vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #003A7C;
+    position: relative;
+
+}
+
+#result p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#white-line {
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+}
+
+#score {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#display-winner {
+    text-transform: uppercase;
+}
+
+.display-winner-popup {
+    visibility: hidden;
+    position: relative;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    color: #003A7C;
+}
+
+.show-display-winner-popup {
+    visibility: visible;
+}
+
+
+#winning-number-wrapper { 
+    float: left;
+    display: flex; 
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+#winning-number-wrapper button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: white;
+    border: 3px solid #003A7C;
+    color: #003A7C;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    transition: 0.2s;
+}
+
+#winning-number-wrapper button:hover {
+    background-color: #003A7C;
+    border: 3px solid white;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.gamer-button:hover {
+    transform: scale(1.3);
+    font-weight: bold;
+}
+
+.reset-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #003A7C;
+    padding: 1rem 5rem 1rem 5rem;
+    color: white;
+    border: none;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sten, Sax, Påse</title>
+</head>
+<body>
+    <div class="move-container">
+        <span id="winning-number-wrapper">
+        <button id="score-low">5</button>
+        <button id="score-high">10</button>
+    </span>
+        <div id="score"><span id="player-score">0</span> - <span id="computer-score">0</span></div>
+        <div>
+    <h1>Välj Drag</h1>
+    <button class="gamer-button" id="sten">Sten</button>
+    <button class="gamer-button" id="sax">Sax</button>
+    <button class="gamer-button" id="pase">Påse</button>
+</div>
+</div>
+            <div id="display-winner-column">
+            <h2 id="display-winner">...</h2>
+        </div>
+<div id="result">
+    <div><p>Du valde:</p><img id="gamer-result"></div>
+    <div id="white-line"></div>
+    <div><p>Datorn valde:</p><img id="computer-result"></div>
+</div>
+
+<div class="display-winner-popup">
+    <h2>Spelet är nu över!</h2>
+    <h2>Tyckte du om det? Lung, tryck på knappen för att spela igen.</h2>
+    <button class="reset-button">Spela igen</button>
+</div>
+
+    <script src="rock-paper.js"></script>
+</body>
+</html>
